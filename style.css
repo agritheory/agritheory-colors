@@ -1,0 +1,234 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+:root{
+  --primary: 23; 
+  --secondary: 319;
+  --info: 43;
+  --success: 80;
+  --danger: 6;
+  --warning: 40;
+}
+td {
+  text-align: center;
+  min-width: 15ch;
+  border: 2px solid transparent;
+}
+
+.cannonical-color {
+  border: 2px solid black;
+}
+
+.primary {
+  background-color: hsl(var(--primary), 85%, 95%);
+}
+.hue-0 .primary{
+  background-color: hsl(var(--primary), 85%, 90%);
+}
+.hue-10 .primary{
+  background-color: hsl(var(--primary), 85%, 85%);
+}
+.hue-20 .primary{
+  background-color: hsl(var(--primary), 85%, 80%);
+}
+.hue-30 .primary{
+  background-color: hsl(var(--primary), 85%, 75%);
+}
+.hue-40 .primary{
+  background-color: hsl(var(--primary), 85%, 75%);
+}
+.hue-50 .primary{
+  background-color: hsl(var(--primary), 85%, 65%);
+}
+.hue-60 .primary{
+  background-color: hsl(var(--primary), 85%, 55%);
+}
+.hue-70 .primary{
+  background-color: hsl(var(--primary), 85%, 45%);
+}
+.hue-80 .primary{
+  background-color: hsl(var(--primary), 85%, 35%);
+}
+.hue-90 .primary{
+  background-color: hsl(var(--primary), 85%, 25%);
+}
+.hue-100 .primary{
+  background-color: hsl(var(--primary), 85%, 15%);
+}
+
+.hue-0 .secondary{
+  background-color: hsl(var(--secondary), 56%, 90%);
+}
+.hue-10 .secondary{
+  background-color: hsl(var(--secondary), 56%, 80%);
+}
+.hue-20 .secondary{
+  background-color: hsl(var(--secondary), 56%, 70%);
+}
+.hue-30 .secondary{
+  background-color: hsl(var(--secondary), 56%, 60%);
+}
+.hue-40 .secondary{
+  background-color: hsl(var(--secondary), 56%, 50%);
+}
+.hue-50 .secondary{
+  background-color: hsl(var(--secondary), 56%, 45%);
+}
+.hue-60 .secondary{
+  background-color: hsl(var(--secondary), 56%, 40%);
+}
+.hue-70 .secondary{
+  background-color: hsl(var(--secondary), 56%, 30%);
+}
+.hue-80 .secondary{
+  background-color: hsl(var(--secondary), 56%, 25%);
+}
+.hue-90 .secondary{
+  background-color: hsl(var(--secondary), 56%, 19%);
+}
+.hue-100 .secondary{
+  background-color: hsl(var(--secondary), 56%, 15%);
+}
+
+.hue-0 .info{
+  background-color: hsl(var(--info), 23%, 92%);
+}
+.hue-10 .info{
+  background-color: hsl(var(--info), 23%, 87%);
+}
+.hue-20 .info{
+  background-color: hsl(var(--info), 23%, 82%);
+}
+.hue-30 .info{
+  background-color: hsl(var(--info), 23%, 77%);
+}
+.hue-40 .info{
+  background-color: hsl(var(--info), 23%, 72%);
+}
+.hue-50 .info{
+  background-color: hsl(var(--info), 23%, 62%);
+}
+.hue-60 .info{
+  background-color: hsl(var(--info), 23%, 52%);
+}
+.hue-70 .info{
+  background-color: hsl(var(--info), 23%, 42%);
+}
+.hue-80 .info{
+  background-color: hsl(var(--info), 23%, 32%);
+}
+.hue-90 .info{
+  background-color: hsl(var(--info), 23%, 22%);
+}
+.hue-100 .info{
+  background-color: hsl(var(--info), 23%, 12%);
+}
+
+
+.hue-0 .success{
+  background-color: hsl(var(--success), 60%, 90%);
+}
+.hue-10 .success{
+  background-color: hsl(var(--success), 60%, 80%);
+}
+.hue-20 .success{
+  background-color: hsl(var(--success), 60%, 70%);
+}
+.hue-30 .success{
+  background-color: hsl(var(--success), 60%, 60%);
+}
+.hue-40 .success{
+  background-color: hsl(var(--success), 60%, 50%);
+}
+.hue-50 .success{
+  background-color: hsl(var(--success), 60%, 40%);
+}
+.hue-60 .success{
+  background-color: hsl(var(--success), 60%, 30%);
+}
+.hue-70 .success{
+  background-color: hsl(var(--success), 60%, 20%);
+}
+.hue-80 .success{
+  background-color: hsl(var(--success), 60%, 15%);
+}
+.hue-90 .success{
+  background-color: hsl(var(--success), 60%, 10%);
+}
+.hue-100 .success{
+  background-color: hsl(var(--success), 60%, 5%);
+}
+
+.hue-0 .danger{
+  background-color: hsl(var(--danger), 79%, 97%);
+}
+.hue-10 .danger{
+  background-color: hsl(var(--danger), 79%, 93%);
+}
+.hue-20 .danger{
+  background-color: hsl(var(--danger), 79%, 87%);
+}
+.hue-30 .danger{
+  background-color: hsl(var(--danger), 79%, 83%);
+}
+.hue-40 .danger{
+  background-color: hsl(var(--danger), 79%, 73%);
+}
+.hue-50 .danger{
+  background-color: hsl(var(--danger), 79%, 63%);
+}
+.hue-60 .danger{
+  background-color: hsl(var(--danger), 79%, 53%);
+}
+.hue-70 .danger{
+  background-color: hsl(var(--danger), 79%, 43%);
+}
+.hue-80 .danger{
+  background-color: hsl(var(--danger), 79%, 33%);
+}
+.hue-90 .danger{
+  background-color: hsl(var(--danger), 79%, 23%);
+}
+.hue-100 .danger{
+  background-color: hsl(var(--danger), 79%, 13%);
+}
+
+.hue-0 .warning{
+  background-color: hsl(var(--warning), 79%, 99%);
+}
+.hue-10 .warning{
+  background-color: hsl(var(--warning), 79%, 94%);
+}
+.hue-20 .warning{
+  background-color: hsl(var(--warning), 79%, 89%);
+}
+.hue-30 .warning{
+  background-color: hsl(var(--warning), 79%, 84%);
+}
+.hue-40 .warning{
+  background-color: hsl(var(--warning), 79%, 74%);
+}
+.hue-50 .warning{
+  background-color: hsl(var(--warning), 79%, 64%);
+}
+.hue-60 .warning{
+  background-color: hsl(var(--warning), 79%, 54%);
+}
+.hue-70 .warning{
+  background-color: hsl(var(--warning), 79%, 44%);
+}
+.hue-80 .warning{
+  background-color: hsl(var(--warning), 79%, 34%);
+}
+.hue-90 .warning{
+  background-color: hsl(var(--warning), 79%, 24%);
+}
+.hue-100 .warning{
+  background-color: hsl(var(--warning), 79%, 14%);
+}
