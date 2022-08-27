@@ -8,6 +8,7 @@
 }
 
 :root{
+  --grayscale: 43;
   --primary: 23; 
   --secondary: 319;
   --info: 43;
@@ -24,6 +25,44 @@ td {
 .cannonical-color {
   border: 2px solid black;
 }
+
+.grayscale {
+  background-color: hsl(var(--grayscale), 4%, 95%);
+}
+.hue-0 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 90%);
+}
+.hue-10 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 85%);
+}
+.hue-20 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 80%);
+}
+.hue-30 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 75%);
+}
+.hue-40 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 75%);
+}
+.hue-50 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 65%);
+}
+.hue-60 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 55%);
+}
+.hue-70 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 45%);
+}
+.hue-80 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 35%);
+}
+.hue-90 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 25%);
+}
+.hue-100 .grayscale{
+  background-color: hsl(var(--grayscale), 4%, 15%);
+}
+
 
 .primary {
   background-color: hsl(var(--primary), 85%, 95%);
